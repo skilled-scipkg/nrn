@@ -1,0 +1,427 @@
+{
+  "compile_memory_path": "skills/.evidence/memory.md",
+  "compiled_package_id": "neuron",
+  "evidence": {
+    "core_skills": [
+      "neuron-build-and-install",
+      "neuron-inputs-and-modeling",
+      "neuron-progref",
+      "neuron-analysis-and-output",
+      "neuron-api-and-scripting",
+      "neuron-simulation-workflows"
+    ],
+    "evidence_dir": "skills/.evidence",
+    "files": [
+      "skills/.evidence/neuron-build-and-install.md",
+      "skills/.evidence/neuron-inputs-and-modeling.md",
+      "skills/.evidence/neuron-progref.md",
+      "skills/.evidence/neuron-analysis-and-output.md",
+      "skills/.evidence/neuron-api-and-scripting.md",
+      "skills/.evidence/neuron-simulation-workflows.md"
+    ]
+  },
+  "generation": {
+    "docs_only": false,
+    "generator_script": "sci-skills-generator/scripts/generate_skills_folder.py",
+    "max_skills": 30,
+    "return_code": 0,
+    "status": "ok"
+  },
+  "mode": "compile",
+  "pass_scope_diffs": {
+    "pass_2": {
+      "added": [],
+      "changed": [
+        "skills/neuron-analysis-and-output/SKILL.md",
+        "skills/neuron-api-and-scripting/SKILL.md",
+        "skills/neuron-build-and-install/SKILL.md",
+        "skills/neuron-inputs-and-modeling/SKILL.md",
+        "skills/neuron-progref/SKILL.md",
+        "skills/neuron-simulation-workflows/SKILL.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/neuron-analysis-and-output/SKILL.md",
+        "skills/neuron-api-and-scripting/SKILL.md",
+        "skills/neuron-build-and-install/SKILL.md",
+        "skills/neuron-inputs-and-modeling/SKILL.md",
+        "skills/neuron-progref/SKILL.md",
+        "skills/neuron-simulation-workflows/SKILL.md"
+      ]
+    },
+    "pass_3": {
+      "added": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/neuron-index/references/doc_map.md",
+        "skills/neuron-index/references/source_map.md"
+      ],
+      "changed": [
+        "skills/.compile_report.json",
+        "skills/.evidence/memory.md",
+        "skills/neuron-advanced-topics/references/source_map.md",
+        "skills/neuron-analysis-and-output/references/source_map.md",
+        "skills/neuron-api-and-scripting/references/source_map.md",
+        "skills/neuron-build-and-install/references/source_map.md",
+        "skills/neuron-changelog/SKILL.md",
+        "skills/neuron-changelog/references/source_map.md",
+        "skills/neuron-courses/references/source_map.md",
+        "skills/neuron-data/references/source_map.md",
+        "skills/neuron-dev/SKILL.md",
+        "skills/neuron-dev/references/source_map.md",
+        "skills/neuron-developer-guide/references/source_map.md",
+        "skills/neuron-examples-and-tutorials/references/source_map.md",
+        "skills/neuron-getting-started/references/source_map.md",
+        "skills/neuron-index/SKILL.md",
+        "skills/neuron-index/references/doc_map.md",
+        "skills/neuron-index/references/source_map.md",
+        "skills/neuron-inputs-and-modeling/references/source_map.md",
+        "skills/neuron-nmodl/references/source_map.md",
+        "skills/neuron-parallel-hpc/references/source_map.md",
+        "skills/neuron-progref/references/source_map.md",
+        "skills/neuron-publications-using-neuron/SKILL.md",
+        "skills/neuron-publications-using-neuron/references/source_map.md",
+        "skills/neuron-removed-features/SKILL.md",
+        "skills/neuron-removed-features/references/source_map.md",
+        "skills/neuron-saveses/SKILL.md",
+        "skills/neuron-saveses/references/source_map.md",
+        "skills/neuron-scm/SKILL.md",
+        "skills/neuron-scm/references/source_map.md",
+        "skills/neuron-set-up-a-subsetdomainiterator/references/source_map.md",
+        "skills/neuron-simulation-workflows/references/source_map.md",
+        "skills/neuron-step-1-define-type-of-cell2/SKILL.md",
+        "skills/neuron-step-1-define-type-of-cell2/references/source_map.md",
+        "skills/neuron-step-3-connect-cells-continued/SKILL.md",
+        "skills/neuron-step-3-connect-cells-continued/references/source_map.md",
+        "skills/neuron-step-3-connect-the-cells-continued/SKILL.md",
+        "skills/neuron-step-3-connect-the-cells-continued/references/source_map.md",
+        "skills/neuron-theory-and-methods/references/source_map.md",
+        "skills/neuron-troubleshooting/SKILL.md",
+        "skills/neuron-troubleshooting/references/source_map.md",
+        "skills/neuron-using-session-files-for-saving/SKILL.md",
+        "skills/neuron-using-session-files-for-saving/references/source_map.md",
+        "skills/neuron-using-the-d-lambda-rule/SKILL.md",
+        "skills/neuron-using-the-d-lambda-rule/references/source_map.md",
+        "skills/neuron-videos/SKILL.md",
+        "skills/neuron-videos/references/source_map.md"
+      ],
+      "deleted": [],
+      "modified": [
+        "skills/neuron-advanced-topics/references/source_map.md",
+        "skills/neuron-analysis-and-output/references/source_map.md",
+        "skills/neuron-api-and-scripting/references/source_map.md",
+        "skills/neuron-build-and-install/references/source_map.md",
+        "skills/neuron-changelog/SKILL.md",
+        "skills/neuron-changelog/references/source_map.md",
+        "skills/neuron-courses/references/source_map.md",
+        "skills/neuron-data/references/source_map.md",
+        "skills/neuron-dev/SKILL.md",
+        "skills/neuron-dev/references/source_map.md",
+        "skills/neuron-developer-guide/references/source_map.md",
+        "skills/neuron-examples-and-tutorials/references/source_map.md",
+        "skills/neuron-getting-started/references/source_map.md",
+        "skills/neuron-index/SKILL.md",
+        "skills/neuron-inputs-and-modeling/references/source_map.md",
+        "skills/neuron-nmodl/references/source_map.md",
+        "skills/neuron-parallel-hpc/references/source_map.md",
+        "skills/neuron-progref/references/source_map.md",
+        "skills/neuron-publications-using-neuron/SKILL.md",
+        "skills/neuron-publications-using-neuron/references/source_map.md",
+        "skills/neuron-removed-features/SKILL.md",
+        "skills/neuron-removed-features/references/source_map.md",
+        "skills/neuron-saveses/SKILL.md",
+        "skills/neuron-saveses/references/source_map.md",
+        "skills/neuron-scm/SKILL.md",
+        "skills/neuron-scm/references/source_map.md",
+        "skills/neuron-set-up-a-subsetdomainiterator/references/source_map.md",
+        "skills/neuron-simulation-workflows/references/source_map.md",
+        "skills/neuron-step-1-define-type-of-cell2/SKILL.md",
+        "skills/neuron-step-1-define-type-of-cell2/references/source_map.md",
+        "skills/neuron-step-3-connect-cells-continued/SKILL.md",
+        "skills/neuron-step-3-connect-cells-continued/references/source_map.md",
+        "skills/neuron-step-3-connect-the-cells-continued/SKILL.md",
+        "skills/neuron-step-3-connect-the-cells-continued/references/source_map.md",
+        "skills/neuron-theory-and-methods/references/source_map.md",
+        "skills/neuron-troubleshooting/SKILL.md",
+        "skills/neuron-troubleshooting/references/source_map.md",
+        "skills/neuron-using-session-files-for-saving/SKILL.md",
+        "skills/neuron-using-session-files-for-saving/references/source_map.md",
+        "skills/neuron-using-the-d-lambda-rule/SKILL.md",
+        "skills/neuron-using-the-d-lambda-rule/references/source_map.md",
+        "skills/neuron-videos/SKILL.md",
+        "skills/neuron-videos/references/source_map.md"
+      ]
+    }
+  },
+  "passes": [
+    {
+      "pass": 1,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 2,
+      "return_code": 0,
+      "status": "ok"
+    },
+    {
+      "pass": 3,
+      "return_code": 0,
+      "status": "ok"
+    }
+  ],
+  "profile": {
+    "docs_dirs": [
+      "docs"
+    ],
+    "docs_only": false,
+    "notes": [
+      "Pass 1 discovery run (2026-03-01) read skills/.evidence/memory.md first; no prior open gaps were recorded.",
+      "Directory roots were verified on disk and a generator dry-run succeeded using explicit docs/tutorial/test/source directory arguments.",
+      "Patched sci-skills-generator/scripts/generate_skills_folder.py to remove invalid f-string expressions so deterministic dry-run generation works with the local Python interpreter."
+    ],
+    "package_name": "neuron",
+    "profile_path": "skills/.compile_profile.json",
+    "profile_source": "file",
+    "source_dirs": [
+      "src",
+      "share/lib/python",
+      "bin",
+      "packaging/python"
+    ],
+    "test_dirs": [
+      "test",
+      "share/lib/python/neuron/rxdtests",
+      "share/lib/python/neuron/tests"
+    ],
+    "tutorial_dirs": [
+      "docs/courses",
+      "docs/rxd-tutorials",
+      "docs/tutorials",
+      "share/demo",
+      "share/examples",
+      "src/nrnpython/examples"
+    ],
+    "warnings": []
+  },
+  "project_root": "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn",
+  "run_id": "compile_20260301T014041907629Z",
+  "skill_plan": {
+    "available_skill_ids": [
+      "neuron-advanced-topics",
+      "neuron-analysis-and-output",
+      "neuron-api-and-scripting",
+      "neuron-build-and-install",
+      "neuron-changelog",
+      "neuron-courses",
+      "neuron-data",
+      "neuron-dev",
+      "neuron-developer-guide",
+      "neuron-examples-and-tutorials",
+      "neuron-getting-started",
+      "neuron-index",
+      "neuron-inputs-and-modeling",
+      "neuron-nmodl",
+      "neuron-parallel-hpc",
+      "neuron-progref",
+      "neuron-publications-using-neuron",
+      "neuron-removed-features",
+      "neuron-saveses",
+      "neuron-scm",
+      "neuron-set-up-a-subsetdomainiterator",
+      "neuron-simulation-workflows",
+      "neuron-step-1-define-type-of-cell2",
+      "neuron-step-3-connect-cells-continued",
+      "neuron-step-3-connect-the-cells-continued",
+      "neuron-theory-and-methods",
+      "neuron-troubleshooting",
+      "neuron-using-session-files-for-saving",
+      "neuron-using-the-d-lambda-rule",
+      "neuron-videos"
+    ],
+    "core_skill_ids": [
+      "neuron-build-and-install",
+      "neuron-inputs-and-modeling",
+      "neuron-progref",
+      "neuron-analysis-and-output",
+      "neuron-api-and-scripting",
+      "neuron-simulation-workflows"
+    ],
+    "deferred_gaps": [
+      "Dry-run produced many one-doc tail topics; pass 3 should consolidate these into a single advanced-topics skill where useful.",
+      "Top-level markdown docs outside docs/ (for example README.md and CONTRIBUTING.md) are not in docs_dirs and may need explicit linking in enriched playbooks.",
+      "Validate in pass 3 whether generated source maps need extra NEURON-specific entry points for MOD/HOC-heavy workflows."
+    ],
+    "goal": "Generate NEURON docs-first skills in pass 2, enrich highest-impact workflows, and audit routing/coverage in pass 3.",
+    "mode": "compile",
+    "priority_skills": [
+      {
+        "action": "create",
+        "must_cover": [
+          "docs-first routing across install/modeling/workflow/API/HPC/example intents",
+          "clear escalation path from docs to source maps only when docs are insufficient"
+        ],
+        "reason": "Index routing is the control point for dispatching user intents across a large multi-domain simulator.",
+        "skill_id": "neuron-index",
+        "source_hints": [
+          "skills/.compile_profile.json",
+          "README.md",
+          "docs/index.rst.in"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "minimal first simulation path",
+          "core NEURON concepts (HOC/Python + model workflow)",
+          "pointer to runnable starter tutorials"
+        ],
+        "reason": "First-run setup and conceptual onboarding are the highest-frequency entry path.",
+        "skill_id": "neuron-getting-started",
+        "source_hints": [
+          "docs/guide",
+          "docs/tutorials",
+          "docs/courses"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "binary install vs source build decision path",
+          "CMake/dependency requirements",
+          "post-install validation checks"
+        ],
+        "reason": "Build/install issues are frequent blockers and need a compact canonical workflow.",
+        "skill_id": "neuron-build-and-install",
+        "source_hints": [
+          "docs/install/install_instructions.md",
+          "docs/cmake_doc/options.rst",
+          "CMakeLists.txt",
+          "packaging/python"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "model setup to run/restart/output flow",
+          "runtime controls and common execution patterns",
+          "basic result sanity checks"
+        ],
+        "reason": "Simulation setup, run, and iteration are central to most user tasks.",
+        "skill_id": "neuron-simulation-workflows",
+        "source_hints": [
+          "docs/progref/simctrl",
+          "docs/guide",
+          "src/nrniv",
+          "src/nrnoc"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "Python interface entry points and idioms",
+          "HOC-to-Python interoperability touchpoints",
+          "API lookup path for unresolved symbols"
+        ],
+        "reason": "Python/HOC API usage spans scripting, automation, and analysis workflows.",
+        "skill_id": "neuron-api-and-scripting",
+        "source_hints": [
+          "docs/dev/python",
+          "docs/progref/programming",
+          "share/lib/python",
+          "src/nrnpython"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "cell/mechanism specification flow",
+          "parameterization and units caveats",
+          "validation checkpoints for model setup"
+        ],
+        "reason": "Model/input specification choices dominate physical correctness.",
+        "skill_id": "neuron-inputs-and-modeling",
+        "source_hints": [
+          "docs/progref/modelspec",
+          "docs/guide",
+          "docs/nmodl",
+          "src/nmodl"
+        ]
+      },
+      {
+        "action": "create",
+        "must_cover": [
+          "MPI/OpenMP/CoreNEURON run patterns",
+          "performance-oriented launch/configuration notes",
+          "common HPC failure triage pointers"
+        ],
+        "reason": "Parallel execution and accelerator configuration are critical for production-scale runs.",
+        "skill_id": "neuron-parallel-hpc",
+        "source_hints": [
+          "docs/coreneuron",
+          "docs/install",
+          "src/coreneuron",
+          "test/parallel_tests"
+        ]
+      },
+      {
+        "action": "audit",
+        "must_cover": [
+          "merge low-signal one-doc topics into neuron-advanced-topics where appropriate",
+          "doc_map/source_map completeness and path validity checks",
+          "skill-count cap, naming consistency, and docs-first policy compliance"
+        ],
+        "reason": "Pass 3 should reduce routing noise and verify generated references are complete and coherent.",
+        "skill_id": "neuron-videos",
+        "source_hints": [
+          "skills",
+          "sci-skills-generator/SKILL.md",
+          "sci-skills-generator/references/generation-rubric.md"
+        ]
+      }
+    ],
+    "version": 1,
+    "warnings": []
+  },
+  "skill_plan_path": "skills/.evidence/skill_plan.json",
+  "validation": {
+    "core_skills_checked": [
+      "neuron-build-and-install",
+      "neuron-inputs-and-modeling",
+      "neuron-progref",
+      "neuron-analysis-and-output",
+      "neuron-api-and-scripting",
+      "neuron-simulation-workflows"
+    ],
+    "docs_only": false,
+    "errors": [
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-build-and-install/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-inputs-and-modeling/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-progref/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-analysis-and-output/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-api-and-scripting/SKILL.md: playbook missing required element containing 'convergence/validation'.",
+      "/mnt/home/taoeli/fermilink_repos/.fermilink-auto-compile/neuron-nrn/skills/neuron-simulation-workflows/SKILL.md: playbook missing required element containing 'convergence/validation'."
+    ],
+    "index_skills": [
+      "neuron-index"
+    ],
+    "missing_planned_skills": [],
+    "ok": false,
+    "planned_skill_ids": [
+      "neuron-index",
+      "neuron-getting-started",
+      "neuron-build-and-install",
+      "neuron-simulation-workflows",
+      "neuron-api-and-scripting",
+      "neuron-inputs-and-modeling",
+      "neuron-parallel-hpc",
+      "neuron-videos"
+    ],
+    "previous_source_inventory": {},
+    "skills_total": 30,
+    "source_inventory": {},
+    "source_links_total": 612,
+    "topic_skills": 29,
+    "warnings": []
+  }
+}

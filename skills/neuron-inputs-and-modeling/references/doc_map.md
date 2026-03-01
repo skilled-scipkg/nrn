@@ -1,0 +1,71 @@
+# neuron documentation map: Inputs and Modeling
+
+Generated from documentation roots:
+- `docs`
+- `docs/courses`
+- `docs/rxd-tutorials`
+- `docs/tutorials`
+- `share/demo`
+- `share/examples`
+- `src/nrnpython/examples`
+- `test`
+- `share/lib/python/neuron/rxdtests`
+- `share/lib/python/neuron/tests`
+
+Total docs grouped in this topic: 54
+
+## File inventory
+- `docs/progref/index.rst` | title: NEURON Programmer's Reference | headings: NEURON Programmer's Reference; Quick Links; Basic Programming
+- `docs/guide/optimization1a.rst` | title: Implementational Details of the Synaptic Mechanism | headings: Implementational Details of the Synaptic Mechanism; The conceptual model; The reaction scheme
+- `docs/courses/interactive_modeling.rst` | title: Interactive Modeling | headings: Interactive Modeling; Physical System; Conceptual Model
+- `docs/courses/batch_runs_with_bulletin_board.rst` | title: Batch runs with bulletin board parallelization | headings: Batch runs with bulletin board parallelization; Physical system; Computational implementation
+- `docs/guide/working_with_postscript_and_idraw.rst` | title: Working with PostScript and idraw figures | headings: Working with PostScript and idraw figures; Exercise; The system
+- `docs/guide/what_is_neuron.rst` | title: What is NEURON | headings: What is NEURON; A flexible and powerful simulator of neurons and networks; Advantages over general-purpose simulators
+- `docs/guide/randomness.rst` | title: Randomness in NEURON models | headings: Randomness in NEURON models; How to generate independent random spike streams; The problem
+- `docs/guide/optimization2.rst` | title: Tutorial 2 : Fitting a model to data | headings: Tutorial 2 : Fitting a model to data; The problem; The cell and the electrical measurements
+- `docs/courses/using_morphometric_data.rst` | title: Working with Morphometric Data | headings: Working with Morphometric Data; Exercises; A. Get an Import3D tool.
+- `docs/courses/using_modeldb_and_modelview.rst` | title: Using ModelDB with NEURON | headings: Using ModelDB with NEURON; Example: Moore et al. 1983 `modeldb.science/9852 <https://modeldb.science/9852>`_; 1. What physical system is being represented, and for what purpose?
+- `docs/courses/batch_runs_bulletin_board_parallelization.rst` | title: Batch runs with bulletin board parallelization | headings: Batch runs with bulletin board parallelization; Physical system; Computational implementation
+- `docs/guide/units.rst` | title: Units used in NEURON | headings: Units used in NEURON; Scripting, the GUI, and the interpreter; Units within NMODL files
+- `docs/guide/heres_how_page.rst` | title: How to plot variables that belong to biophysical cell models in a network | headings: How to plot variables that belong to biophysical cell models in a network; Using Plot what? to find names; 1. Find the proper cell class
+- `docs/nmodl/transpiler/language.rst` | title: The NEURON MODeling language | headings: The NEURON MODeling language; | NMODL DSL construct    | parsing supported | codegen supported | AST docs available  |; |                                        Blocks                                        |
+- `docs/progref/modelspec/guitools/pointman.rst` | title: Managers | headings: Managers; PointManager; PointGroup
+- `docs/guide/units_tutorial.rst` | title: UNITS Tutorial | headings: UNITS Tutorial; Definition of new units; Function and Argument units
+- `docs/guide/step_1_define_type_cell.rst` | title: Step 1. Define the types of cells | headings: Step 1. Define the types of cells; A. We need the GUI tool for specifying new types of artificial cells.; B. We need a class of cells that can supply spike trains.
+- `docs/courses/specifying_inhomogeneous_channel_dis.rst` | title: Inhomogeneous Channel Distribution | headings: Inhomogeneous Channel Distribution; Physical System; Conceptual Model
+- `docs/coreneuron/inputs.rst` | title: CoreNeuron Inputs | headings: CoreNeuron Inputs; Premise; Input Categories
+- `docs/courses/state_and_parameter_discontinuities.rst` | title: State and parameter discontinuities | headings: State and parameter discontinuities; Physical System; Model
+- `docs/courses/multithread_parallelization.rst` | title: Multithreaded parallelization | headings: Multithreaded parallelization; Physical System; Model
+- `docs/progref/simctrl/cvode.rst` | title: CVode | headings: CVode; ModelDescriptionIssues; Channels
+- `docs/nmodl/transpiler/contents/visitors.rst` | title: Visitors | headings: Visitors; Parsing Model and constructing AST; Querying AST objects with Visitors
+- `docs/progref/modelspec/programmatic/network/parcon.rst` | title: ParallelContext | headings: ParallelContext; then one expects the minimum step_wait to be close to 0.; Implementation Notes
+- `docs/guide/example_of_simple_network.rst` | title: Example of a Simple Network | headings: Example of a Simple Network; Conceptual Model; Computational Model
+- `docs/guide/example_hybrid_network.rst` | title: Example of a Hybrid Network | headings: Example of a Hybrid Network; Conceptual Model; Computational Model
+- `docs/guide/use_the_model_specification.rst` | title: Step 4. Use the model specification | headings: Step 4. Use the model specification
+- `docs/guide/specify_the_model_parameters_varied.rst` | title: Step 2. Specify the model parameter(s) to be varied | headings: Step 2. Specify the model parameter(s) to be varied
+- `docs/guide/run_simulation_plot_input_output2.rst` | title: Run a simulation and plot the input and output spike trains | headings: Run a simulation and plot the input and output spike trains
+- `docs/guide/run_simulation_plot_input_output.rst` | title: Run a simulation and plot the input and output spike trains | headings: Run a simulation and plot the input and output spike trains
+- `docs/courses/managing_models_on_the_fly.rst` | title: Managing Models on the Fly | headings: Managing Models on the Fly
+- `docs/progref/modelspec/programmatic/topology.rst` | title: Topology | headings: Topology; Creating and connecting sections; This function is superseded by the easier to use, :func:`secname`.
+- `docs/progref/modelspec/programmatic.rst` | title: Programmatic Model Specification | headings: Programmatic Model Specification
+- `docs/progref/modelspec/guitools.rst` | title: Model Specification GUI Tools | headings: Model Specification GUI Tools
+- `docs/progref/modelspec/guitools/showmech.rst` | title: ShowMechanism | headings: ShowMechanism; MechType
+- `docs/progref/modelspec/programmatic/topology/secspec.rst` | title: Section and Segment Selection | headings: Section and Segment Selection; Dot notation for properties; Looping over sections (HOC only)
+- `docs/progref/modelspec/programmatic/mechanisms/mech.rst` | title: Point Processes and Artificial Cells | headings: Point Processes and Artificial Cells; General; Mechanisms
+- `docs/progref/modelspec/programmatic/ste.rst` | title: StateTransitionEvent | headings: StateTransitionEvent
+- `docs/progref/modelspec/programmatic/rxdmath.rst` | title: Mathematical functions for rate expressions | headings: Mathematical functions for rate expressions
+- `docs/progref/modelspec/programmatic/obsoletestimuli.rst` | title: Obsolete Stimuli | headings: Obsolete Stimuli
+- `docs/progref/modelspec/programmatic/network.rst` | title: Networks | headings: Networks
+- `docs/progref/modelspec/programmatic/mechtype.rst` | title: MechanismType | headings: MechanismType
+- `docs/progref/modelspec/programmatic/mechanisms.rst` | title: Dynamics (Channels, etc...) | headings: Dynamics (Channels, etc...)
+- `docs/progref/modelspec/programmatic/linmod.rst` | title: LinearMechanism | headings: LinearMechanism
+- `docs/progref/modelspec/programmatic/kschan.rst` | title: KSChan | headings: KSChan
+- `docs/progref/modelspec/programmatic/ions.rst` | title: Ions | headings: Ions
+- `docs/progref/modelspec/programmatic/hocmech.rst` | title: HOC-based Mechanisms | headings: HOC-based Mechanisms
+- `docs/progref/modelspec/programmatic/electrod.rst` | title: Electrode | headings: Electrode
+- `docs/progref/modelspec/guitools/inserter.rst` | title: Inserter | headings: Inserter
+- `docs/progref/modelspec/programmatic/topology/secref.rst` | title: SectionRef | headings: SectionRef
+- `docs/progref/modelspec/programmatic/topology/seclist.rst` | title: SectionList | headings: SectionList
+- `docs/progref/modelspec/programmatic/network/parnet.rst` | title: ParallelNetManager | headings: ParallelNetManager
+- `docs/progref/modelspec/programmatic/network/netcon.rst` | title: NetCon | headings: NetCon
+- `docs/progref/modelspec/programmatic/network/lyttonmpi.rst` | title: Lyttonmpi | headings: (no heading extracted)

@@ -1,0 +1,76 @@
+# neuron documentation map: Build and Install
+
+Generated from documentation roots:
+- `docs`
+- `docs/courses`
+- `docs/rxd-tutorials`
+- `docs/tutorials`
+- `share/demo`
+- `share/examples`
+- `src/nrnpython/examples`
+- `test`
+- `share/lib/python/neuron/rxdtests`
+- `share/lib/python/neuron/tests`
+
+Total docs grouped in this topic: 59
+
+## File inventory
+- `docs/README.md` | title: NEURON Documentation | headings: NEURON Documentation; Online; On pull requests
+- `docs/nmodl/transpiler/readme.rst` | title: The NMODL Transpiler | headings: The NMODL Transpiler; About NMODL; Installation
+- `test/CMakeLists.txt` | title: Add directory-level default compiler flags -- these should be added to all NEURON targets, but not | headings: Add directory-level default compiler flags -- these should be added to all NEURON targets, but not; targets from included projects like CoreNEURON and NMODL; =============================================================================
+- `docs/example_of_generating_movie.rst` | title: Example of Generating a Movie | headings: Example of Generating a Movie; Install NEURON, update matplotlib; Load the morphology definition
+- `test/nrnivmodl_cmake/CMakeLists.txt` | title: ~~~ | headings: ~~~; Test for `create_nrnmech` as if it was already installed; This is admittedly a bit hacky, but we are launching CMake inside of CMake, and we cannot use any
+- `docs/guide/cellbuilder2.rst` | title: Managing a model cell with complex anatomy | headings: Managing a model cell with complex anatomy; Step 1: Get the cell's anatomy into a CellBuilder; Step 2. Create subsets
+- `test/pyinit/CMakeLists.txt` | title: Make sure that exit codes are propagated as expected, and that the expected number of arguments is | headings: Make sure that exit codes are propagated as expected, and that the expected number of arguments is; processed. Start out with checking that the right amount of code is executed, and that error codes; are propagated. Here, we don't bother to duplicate for all explicit/implicit Python versions.
+- `docs/videos/incfcns-tutorial-2022.rst` | title: INCF/CNS 2022 Online Tutorial | headings: INCF/CNS 2022 Online Tutorial; Course Welcome; NEURON concepts
+- `docs/install/windows.md` | title: Windows build | headings: Windows build; Pre-requisites; Build Environment installation
+- `docs/install/python_wheels.md` | title: Building Python Wheels | headings: Building Python Wheels; Linux wheels; Setting up Docker
+- `docs/install/mac_pkg.md` | title: Mac Binary Package (Apple M1 and Mac x86_64) | headings: Mac Binary Package (Apple M1 and Mac x86_64); command in the script that is used to configure the build is; -DCMAKE_C_COMPILER=clang -DCMAKE_CXX_COMPILER=clang++
+- `docs/install/install_instructions.md` | title: Installing Binary Distribution | headings: Installing Binary Distribution; Installing Source Distributions; Install Build Dependencies
+- `docs/install/formatting.md` | title: Code Formatting | headings: Code Formatting; Dependencies; Linux
+- `docs/install/debug.md` | title: with python | headings: with python; or, with hoc; or, if you are executing coreneuron directly
+- `docs/install/code_coverage.md` | title: Code Coverage | headings: Code Coverage; Dependencies (Linux); Instructions
+- `docs/guide/faq.rst` | title: Frequently asked questions (FAQ) | headings: Frequently asked questions (FAQ); Now that I've installed NEURON, how do I run it?; What's the best way to learn how to use NEURON?
+- `docs/guide/cellbuilder1.rst` | title: Creating a stylized ("stick-figure") model cell | headings: Creating a stylized ("stick-figure") model cell; Step 1. Bring up a CellBuilder; Step 2. Specify topology
+- `docs/courses/network_ready_cells_from_the_cellb.rst` | title: Network ready cells from the CellBuilder | headings: Network ready cells from the CellBuilder; Model; Simulation
+- `docs/courses/hopfield_brody_network_in_python.rst` | title: Hopfield Brody synchronization (sync) model | headings: Hopfield Brody synchronization (sync) model; Standard intfire implementation (eg :class:`IntFire1` from ``intfire1.mod``)); IntIbFire in sync model
+- `docs/guide/bio_faq.rst` | title: setup the model here | headings: setup the model here; Biology Modeling FAQ; How do I work with neuron morphologies?
+- `test/external/testcorenrn/CMakeLists.txt` | title: Set up the tests from the testcorenrn external repository | headings: Set up the tests from the testcorenrn external repository; Set the number of MPI ranks to use for each test. Assume 1 if not explicitly specified.; Flag which tests include `insert hh` and may, therefore, be sensitive to differences between
+- `test/external/ringtest/CMakeLists.txt` | title: Set up tests from the ringtest external repository | headings: Set up tests from the ringtest external repository; Step 1 -- define a group of configurations; Step 2 -- add configurations to the group (e.g. here NEURON without MPI) When CoreNEURON is
+- `docs/dev/python/wheels.md` | title: Building NEURON wheels | headings: Building NEURON wheels; pyproject.toml; Build details
+- `test/coreneuron/unit/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2021 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/nmodl/transpiler/unit/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Add extra compile flags to NMODL test sources; Common input data library
+- `docs/guide/how_to_get_started.rst` | title: How to get started with NEURON | headings: How to get started with NEURON; Installation; Forum
+- `docs/coreneuron/installation.rst` | title: Getting CoreNEURON | headings: Getting CoreNEURON; Installing with ``pip``; Installing from source
+- `docs/guide/step_2_create_network_cell.rst` | title: Step 2. Create each cell in the network | headings: Step 2. Create each cell in the network; A. We need a Network Builder.; B. We need a cell to generate the afferent spike train.
+- `test/coreneuron/unit/random/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2024 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `docs/guide/step_2_create_each_cell.rst` | title: Step 2. Create each cell in the network | headings: Step 2. Create each cell in the network; A. We need a Network Builder; B. We need an instance of each of our three cell types.
+- `docs/coreneuron/running-a-simulation.rst` | title: Running a simulation | headings: Running a simulation; Building MOD files; Enabling CoreNEURON
+- `test/external/reduced_dentate/CMakeLists.txt` | title: TODO/WARNING: the max_cells_per_type=100 option shrinks the model in a way that has no particular | headings: TODO/WARNING: the max_cells_per_type=100 option shrinks the model in a way that has no particular; scientific meaning. This was done as a short-term measure to keep the CTest suite reasonably fast,; but it should be revisited. Ideally we would use a small model based on a newer version of
+- `test/external/CMakeLists.txt` | title: Add tests based on external repositories | headings: Add tests based on external repositories; tqperf requires libcrypto library
+- `docs/guide/using_neuron_on_the_mac.rst` | title: Using NEURON on the Mac | headings: Using NEURON on the Mac; Under macOS, how do I compile mod files or start NEURON?
+- `docs/guide/network_builder_tutorials.rst` | title: Network Builder tutorials | headings: Network Builder tutorials; Using the Network Builder
+- `test/coreneuron/unit/lfp/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `docs/install/install.rst` | title: Installation | headings: Installation
+- `docs/install/developer.rst` | title: Developer Builds | headings: Developer Builds
+- `docs/guide/cellbuilder3.rst` | title: Specifying parameterized variation of biophysical properties | headings: Specifying parameterized variation of biophysical properties
+- `docs/guide/cellbuilder.rst` | title: Using the Cell Builder GUI | headings: Using the Cell Builder GUI
+- `docs/courses/building_and_labeling_a_two_electrod.rst` | title: Building and labeling a two electrode voltage clamp with the Linear Circuit Builder | headings: Building and labeling a two electrode voltage clamp with the Linear Circuit Builder
+- `test/nmodl/transpiler/integration/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Add extra compile flags to NMODL test sources; translation of mod files
+- `test/coreneuron/unit/solver/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/coreneuron/unit/queueing/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/coreneuron/unit/mech_mapping/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/coreneuron/unit/interleave_info/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/coreneuron/unit/cmdline_interface/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/coreneuron/unit/alignment/CMakeLists.txt` | title: ============================================================================= | headings: =============================================================================; Copyright (c) 2016 - 2022 Blue Brain Project/EPFL; See top-level LICENSE file for details.
+- `test/api/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `share/demo/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `docs/dev/nrnivmodl-cmake.rst` | title: Nrnivmodl Cmake | headings: (no heading extracted)
+- `test/external/olfactory-bulb-3d/CMakeLists.txt` | title: Note that the bulb3dtest.py gives an error if run without MPI | headings: Note that the bulb3dtest.py gives an error if run without MPI
+- `docs/progref/modelspec/guitools/cellbuilder.rst` | title: CellBuilder | headings: CellBuilder; KineticBuild
+- `test/nrnivmodl_cmake/build_cmake/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `test/external/tqperf/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `test/external/nrntest/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `test/external/channel-benchmark/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `share/demo/release/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
+- `test/nmodl/transpiler/usecases/CMakeLists.txt` | title: Cmakelists | headings: (no heading extracted)
